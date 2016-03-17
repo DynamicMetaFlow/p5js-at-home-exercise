@@ -16,6 +16,8 @@ function setup() {
 //This function is run CONTINUOUSLY in a loop
 function draw() {
   background(200);
+
+  fill(200, 0, 0);
   ellipse(xPosition, yPosition, diameter, diameter);
 }
 
